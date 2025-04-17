@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <link rel="stylesheet" type="text/css" href="script.js">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    </head>
+        <body>
+          <header>
+              <nav>
+                  <div class="logo">
+                      <span><img src="images/logo.png" style="width: 170px;"></span>
+                  </div>
+                  <div class="menu">
+                      <a href="#about">About Us</a>
+                      <a href="#eperience">Courses</a>
+                      <a href="#facility">Facilities</a>
+                      <a href="#campus">Campus</a>
+                      <a href="#event">Events</a>
+                      <a href="#recuriter">Recruiters</a>
+                  </div>
+              </nav>
+              <img class="banner" src="images/Banner.png">
+              <div class="wrapper1"> 
+                  <div class="title1">
+                      Apply Now
+                    </div>
+                       <form class="form" id="form" onsubmit="validateInput()" >
+                        <div class="input_field">
+                            <input type="text" id="txtUserName" class="input" placeholder="Name" name="username"  >
+                            <small>Error Message</small>
+                        </div>
+                        <div class="input_field">
+                            <input type="text" id="txtEmail" class="input" placeholder="Email" name="email">
+                            <small>Error Message</small>
+                        </div>
+                        <div class="input_field">
+                            <input type="text" id="txtPhone" class="input" placeholder="Phone Number" name="phonenumber">
+                            <small>Error Message</small>
+                        </div>
+                        <div class="input_field">
+                            <div class="custon_select" id="txtState" name="state">
+                                <select>
+                                    <option value="Select State">Select State</option>
+                                    <option value="maharashtra">Maharashtra</option>
+                                    <option value="rajastan">Rajastan</option>
+                                    <option value="gujrat">Gujrat</option>
+                                    <option value="punjab">Punjab</option>
+                                </select>
+                            </div>
+                            <small>Error Message</small>
+                        </div>
+                        <div class="input_field">
+                            <div class="custon_select" id="txtCity" name="city">
+                                <select>
+                                    <option value="">Select City</option>
+                                    <option value="pune">Pune</option>
+                                    <option value="mumbai">Mumbai</option>
+                                    <option value="nanded">Nanded</option>
+                                    <option value="latur">Latur</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="input_field">
+                            <div class="custon_select" id="txtWork" name="work">
+                                <select>
+                                    <option value="">Work Experience</option>
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </div>
+                            <small>Error Message</small>
+                        </div>
+                        <div class="input_field">
+                            <button type="submit" value="Submit" class="btn" >Submit</button>
+                        </div>
+                    </form>    
+                </div>   
+            </header>
+
+          <!-- About University -->
+          <div class="wrapper" id="about">
+              <img src="images/Learning M.Pharm at Parul University.png" alt="">
+              <div class="text-box">
+                  <h1>About Parul University's <br> Study Abroad</h1>
+                  <p>The Parul University Study Abroad Center provides students with leading <br> opportunities to pursue their studies abroad under the guidance of leading <br> experts. The University’s ties with strategic Universities worldwide across <br> Europe, Australia, USA, Canada, amongst others. We provide the best <br>assistance in language coaching, admissions, and visa processing which <br> allows you to reach your academic dreams.</p>
+              </div>
+          </div>
+
+          <!-- Experiences -->
+         <section id="eperience">
+             <div>
+                <img src="images/Choose The Parul University Experience! BG.png" class="choose">
+                <h2 class="experience">Choose The Parul University Experience!</h2>
+            </div>
+            <div class="container">
+             <div class="exprience1">
+                 <p class="p">2000+</p>
+                 <p class="text">Faculties</p>
+             </div> 
+             <div class="exprience1">
+                <p class="p">75+</p>
+                <p class="text">Foreign Partnerships</p>
+            </div>
+                <div class="exprience1">
+                 <p class="p">17000+</p>
+                 <p class="text">Placements in 1,600+ Companies</p>
+                </div>
+                <div class="exprience1">
+                    <p class="p">12000+</p>
+                    <p class="text">In-Campus Residency</p>
+                   </div>
+                   <div class="exprience1">
+                    <p class="p">150</p>
+                    <p class="text">Acres Campus</p>
+                   </div>
+                </div>
+                <div class="container">
+                    <div class="exprience1">
+                        <p class="p">35,000+</p>
+                        <p class="text">Students</p>
+                    </div> 
+                    <div class="exprience1">
+                       <p class="p">2000+</p>
+                       <p class="text">International Students</p>
+                   </div>
+                       <div class="exprience1">
+                        <p class="p">100+</p>
+                        <p class="text">National Awards & Ranking</p>
+                       </div>
+                       <div class="exprience1">
+                           <p class="p">150+</p>
+                           <p class="text">Professors from IITs, NITs & IISc</p>
+                          </div>
+                          <div class="exprience1">
+                           <p class="p">10Cr</p>
+                           <p class="text">in Entrepreneurship Funding</p>
+                          </div>
+                       </div>
+         </section>
+         <!-- page4  -->
+         <div>
+            <h2 class="heading4">WHY PU Study Abroad Center</h2>
+        </div>
+        <div class="container1">
+            <div class="box1">
+                <p class="text4">100% Alignment with <br> Leading Universities</p>
+            </div>
+            <div class="box2">
+                <p class="text4">98% Language<br> Coaching Success Rate</p>
+            </div>
+            <div class="box3">
+                <p class="text4">Effective Career <br> Guidance & Grooming</p>
+            </div>
+            <div class="box4">
+                <p class="text4">Highly Strategic <br> Global Partnerships</p>
+            </div>
+        </div>
+
+        <!-- page5 -->
+        <div id="facility">
+            <h2 class="here">Here Is How </h2>
+            <h2 class="heading5"> We Help You Study Abroad</h2>
+        </div>
+        <div class="container1">
+            <div class="boxx">
+                <img src="images/Free Counseling.png" alt="">
+                <p class="textt">Free Counseling</p>
+                <p class="texttt">Make the best well informed <br> choices through our counseling <br> free of cost</p>
+            </div>
+            <div class="boxx">
+                <img src="images/Flight Ticket Booking.png" alt="">
+                <p class="textt">Flight Ticket Booking</p>
+                <p class="texttt">We ensure that you get the <br> best travel plan through <br> flight bookings</p>
+            </div>
+            <div class="boxx">
+                <img src="images/Visa Application.png" alt="">
+                <p class="textt">Visa Application</p>
+                <p class="texttt">Our experts take you through <br> the preparation for your visa <br> documentations</p>
+            </div>
+            <div class="boxx">
+                <img src="images/Admission Processing.png" alt="">
+                <p class="textt">Admission Processing</p>
+                <p class="texttt">We help you find the best <br> Universities Abroad for your <br> higher studies</p>
+            </div>
+        </div>
+        <div class="container1">
+            <div class="boxx">
+                <img src="images/University Alignment.png" alt="" class="unv">
+                <p class="texxt">University Alignment</p>
+                <p class="texxtt">Aligning you with best University <br> which meets academics your needs</p>
+            </div>
+            <div class="boxx">
+                <img src="images/Language Coaching.png" alt="" class="lan">
+                <p class="textt">Language Coaching</p>
+                <p class="lantext">IELTS, German and French <br> Language Coaching for Your <br> Next Destination</p>
+            </div>
+            <div class="boxx">
+                <img src="images/Pre-Departure Orientation.png" alt="" class="pre">
+                <p class="Departure">Pre-Departure Orientation</p>
+                <p class="deptext">Get prepared to venture to your <br> next global University</p>
+            </div>
+        </div>
+        
+        <!-- page6 -->
+        <div id="campus">
+            <h2 class="heading6">Our Students Who Made It Abroad</h2>
+        </div>
+        <div class="container2">
+            <div class="box5">
+                <p class="text5">Hobotiana Elvinah Randrianaivo & <br>Lucian Ratsimamitaka</p>
+                <p class="t5">University of Paris Saclay, <br> France</p>
+                <i class="fa fa-caret-left"  id="fa1"></i>
+            </div>
+            <div class="box6">
+                <img src="images/They Did It, So can you Image.png" alt="" class="img6">
+            </div>
+            <div class="box7">
+                <p class="texxt55">AKSHAR PATEL</p>
+                <p class="t5">Fachhochschule des <br> Mittelstands (FHM) <br> Germany</p>
+                <i class="fa fa-caret-left"  id="fa2"></i>
+            </div>
+            <div class="box8">
+                <img src="images/They Did It, So can you Image.png" alt="" class="img7">
+            </div>
+        </div>
+        <div class="container3">
+            <div class="box9">
+                <img src="images/They Did It, So can you Image.png" alt="" class="img8">
+            </div>
+            <div class="box10">
+                <i class="fa fa-caret-right" id="fa3"></i>
+                <p class="text6">SIMRAN KRISHNANI</p>
+                <p class="t6">Conestoge University <br> Canada</p>
+            </div>
+            <div class="box11">
+                <img src="images/They Did It, So can you Image.png" alt="" class="img9">
+            </div>
+            <div class="box12">
+                <i class="fa fa-caret-right"  id="fa4"></i>
+                <p class="text6">Preyansh Shah</p>
+                <p class="t6">Heriot Watt University <br> United Kingdom</p>
+            </div>
+        </div>
+        <!-- page7-->
+        <div>
+            <img src="images/Providing The Right Language Training BG.png" class="provide">
+            <h2 class="pro">Providing The Right <br> Language Training <br> For Future Education</h2>
+        </div>
+        <div class="contain">
+            <div class="exp">
+                <p class="pt">The Parul University Study Abroad Center provides students with leading <br> opportunities to pursue their studies abroad under the guidance of <br> leading experts. The University’s ties with strategic Universities worldwide <br> across Europe, Australia, USA, Canada, amongst others. We provide the <br> best assistance in language coaching, admissions, and visa processing which <br> allows you to reach your academic dreams.</p>
+            </div> 
+            <div class="exprience1">
+               <p class="PU">Why Learn Languages with PU</p>
+               <i class="fa fa-caret-right" style="font-size:36px;color:#0084D6"></i>
+               <p class="learn">Free mock tests</p>
+               <i class="fa fa-caret-right" style="font-size:36px;color:#0084D6"></i>
+               <p class="learn">Free 1 week demo class</p>
+               <i class="fa fa-caret-right" style="font-size:36px;color:#0084D6"></i>
+               <p class="learn">500+ student enrollment</p>
+               <i class="fa fa-caret-right" style="font-size:36px;color:#0084D6"></i>
+               <p class="learn">Trainers with 10+ years of IELTS teaching experience</p>
+               <i class="fa fa-caret-right" style="font-size:36px;color:#0084D6"></i>
+               <p class="learn">Options for online and offline classes</p>
+               <i class="fa fa-caret-right" style="font-size:36px;color:#0084D6"></i>
+               <p class="learn">Exam oriented coaching</p>
+               <i class="fa fa-caret-right" style="font-size:36px;color:#0084D6"></i>
+               <p class="learn">Special weekend batches</p>
+               <i class="fa fa-caret-right" style="font-size:36px;color:#0084D6"></i>
+               <p class="learn">Skill focused Learning</p>
+               <i class="fa fa-caret-right" style="font-size:36px;color:#0084D6"></i>
+               <p class="learn">Long term membership with a one-time fee payment</p>
+           </div>
+        </div>
+
+           <!-- page8 -->
+           <div>
+            <h2 class="heading7">A Glimpse of Study Abroad Possibilities</h2>
+        </div>
+        <div class="container4">
+            <div class="box13">
+                <img src="images/Rowan University.png" alt="" class="img13">
+                <p class="usa">USA</p>
+                <p class="usa1">Rowan University</p>
+                <p class="usa2">University of Detroit Mercy</p>
+                <p class="usa3">National University</p>
+                <p class="usa4">Western Illinois University</p>
+            </div>
+            <div class="box14">
+                <img src="images/Nottingham Trent University.png" alt="" class="img14">
+                <p class="uk">UK</p>
+                <p class="uk1">Nottingham Trent University</p>
+                <p class="uk2">Bristol University</p>
+                <p class="uk3">Canterbury Christ Church University</p>
+            </div>
+            <div class="box15">
+                <img src="images/Neoma Business School.png" alt="" class="img15">
+                <p class="france">France</p>
+                <p class="france1">Neoma Business School</p>
+                <p class="france2">College De Paris</p>
+                <p class="france3">Rennes School of Business</p>
+            </div>
+            <div class="box16">
+                <img src="images/Caucasus University.png" alt="" class="img16">
+                <p class="geo">Georgia</p>
+                <p class="geo1">Caucasus University</p>
+            </div>
+            <div class="box17">
+                <img src="images/NIAS & other countries.png" alt="" class="img17">
+                <p class="japan">Japan</p>
+                <p class="japan1">NIAS & other countries</p>
+            </div>
+        </div>
+
+        <!-- page9 -->
+        <div class="container5">
+            <div class="box18">
+                <p class="our">They Did It,<br> So Can You</p>
+                <p class="our1" id="student">Our Successful Students</p>
+            </div>
+            <div class="box19">
+                <img src="images/They Did It, So can you Image.png" alt="" class="img18">
+                <div class="babyesh">
+                    <p class="babyesh1">Babyash Vithlani</p>
+                    <p class="babyeshpp">7.5 IELTS Score</p>
+                </div>
+            </div>
+            <div class="box20">
+                <img src="images/They Did It, So can you Image.png" alt="" class="img19">
+                <div class="babyesh">
+                    <p class="babyesh1">Harshrajsinh Jadeja</p>
+                    <p class="babyeshpp">7 IELTS Score</p>
+                </div>
+            </div>
+            <div class="box21">
+                <img src="images/They Did It, So can you Image.png" alt="" class="img20">
+                <div class="babyesh">
+                    <p class="babyesh1">Jay Gadhiya</p>
+                    <p class="babyeshpp">7 IELTS Score</p>
+                </div>
+            </div>
+            <div class="box22">
+                <img src="images/They Did It, So can you Image.png" alt="" class="img21">
+                <div class="babyesh">
+                    <p class="babyesh1">Hishwa Surti</p>
+                    <p class="babyeshpp">7.5 IELTS Score</p>
+                </div>
+            </div>
+            <div class="box23">
+                <img src="images/They Did It, So can you Image.png" alt="" class="img21">
+                <div class="babyesh">
+                    <p class="babyesh1">Vraj Pandya</p>
+                    <p class="babyeshpp">German A1 Score 60/100</p>
+                </div>
+            </div>
+        </div>
+        <div id="event">
+            <img src="images/Scholarship Opportunities To Support Your Learning BG.png" alt="" class="scholor">
+            <p class="tscholor">Scholarship Opportunities To Support Your Learning</p>
+            <p class="pscholor">Scholarships are available for students who achieve a band score of 7.5 or higher, with no less than 6 bands in any skill.</p>
+        </div>
+
+        <!-- page10 slide -->
+        <div id="recuriter">
+            <h2 class="heading9">Our Happy Learners</h2>
+        </div>
+        <div class="cover">
+            <div class="sona">
+                <h2></h2>
+                <p class="sm">I am more than grateful for the help and assistance which I received from the International Relations Cell- study abroad desk. I always wanted to know how to make the best choice in terms of my future studies and the study abroad team helped to understand the best prospective Universities I could go to and I am glad to have been able to find Conestoga Canada.</p>
+                <p class="ms">Babyesh Vithlani<br>Conestoge, Canada</p>
+                <img src="images/Jayraj Barot.png" alt="" class="jay">
+            </div>
+            <div class="sona">
+                <h2></h2>
+                <p class="sm">One of my major concerns was regarding my ability to be proficient in the English language as well as understanding the processes which were required for me to study abroad. I am grateful for the Cell’s linguistics study centre as I was able to gain the much needed coaching regarding IELTS and I was also able to receive the necessary guidance in processing my visa and all the required documentations.</p>
+                <p class="ms">Simran Krishnani<br>Conestoge, Canada</p>
+                <img src="images/Jayraj Barot.png" alt="" class="jay">
+            </div>
+        </div>
+        <div class="footer">
+            <p class="footertext">© Copyright 2021. All Rights Reserved by Parul University.</p>
+        </div>
+        <script src="script.js"></script>
+        </body>
+</html>
+
